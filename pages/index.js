@@ -58,7 +58,7 @@ export default function Home(props) {
 
       <div className="card card-info">
         <h2>💡 Sona Lancer </h2>
-        <p>Welcome! This app is built Built by SonaLnacer for SonaLancer.</p>
+        <p>Welcome! This app is Built by SonaLnacer for SonaLancer.</p>
         <p>Sign up for an 👨‍🎤 account, ✍️ Post your Project Ideas, then 🤔 interested Student will make projects for you at low cost. All public content is server-rendered and search-engine optimized.</p>
       </div>
      
