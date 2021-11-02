@@ -31,7 +31,7 @@ function SignInButton() {
         <img src={'/google.png'} width="30px" /> Sign in with Google
       </button>
       <button onClick={() => auth.signInAnonymously()}>
-        Sign in Anonymously
+        Sign in Username
       </button>
     </>
   );
