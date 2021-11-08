@@ -57,9 +57,9 @@ export default function Home(props) {
       <Metatags title="Home Page" description="Get the latest posts on our site" />
 
       <div className="card card-info">
-        <h2>💡 Sona Lancer </h2>
-        <p>Welcome! This app is Built by SonaLancer for SonaLancer.</p>
-        <p>Sign up for an 👨‍🎤 account, ✍️ Post your Project Ideas, then 🤔 interested Student will make projects for you at low cost. All public content is server-rendered and search-engine optimized.</p>
+        <h2>💡 SonaBlogger</h2>
+        <p>Welcome! This app is Built by SonaBlogger for SonaBlogger.</p>
+        <p>Sign up for an 👨‍🎤 account, ✍️ Post your Articles, then 🤔 Audience will like your articles. All public content is server-rendered and search-engine optimized.</p>
       </div>
      
       <PostFeed posts={posts} />

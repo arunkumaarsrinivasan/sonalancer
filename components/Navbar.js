@@ -20,7 +20,7 @@ export default function Navbar() {
       <ul>
         <li>
           <Link href="/">
-            <button className="btn-logo">SL</button>
+            <button className="btn-logo">SonaBlogger</button>
           </Link>
         </li>
 
@@ -32,7 +32,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="/admin">
-                <button className="btn-blue">Post Project</button>
+                <button className="btn-blue">Post Article</button>
               </Link>
             </li>
             <li>

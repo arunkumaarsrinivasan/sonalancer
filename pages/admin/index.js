@@ -31,7 +31,7 @@ function PostList() {
 
   return (
     <>
-      <h1>Manage your Projects</h1>
+      <h1>Manage your Articles</h1>
       <PostFeed posts={posts} admin />
     </>
   );
@@ -80,14 +80,14 @@ function CreateNewPost() {
       <input
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        placeholder="My Awesome Project Idea!"
+        placeholder="My Awesome Article Idea!"
         className={styles.input}
       />
       <p>
         <strong>Slug:</strong> {slug}
       </p>
       <button type="submit" disabled={!isValid} className="btn-green">
-        Post project
+        Post Article
       </button>
     </form>
   );
