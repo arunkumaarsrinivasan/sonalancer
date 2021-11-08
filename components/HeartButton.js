@@ -31,6 +31,6 @@ export default function Heart({ postRef }) {
   return heartDoc?.exists ? (
     <button onClick={removeHeart}>😒Not Interested</button>
   ) : (
-    <button onClick={addHeart}>🤔 Interested</button>
+    <button onClick={addHeart}>🥰 Interested</button>
   );
 }

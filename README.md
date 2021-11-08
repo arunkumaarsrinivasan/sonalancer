@@ -1,1 +1,1 @@
-SonaLancer - Mini Project
+SonaBlogger - Mini Project
